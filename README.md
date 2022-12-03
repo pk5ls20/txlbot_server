@@ -60,7 +60,8 @@ json文件示例：
   "moepath" : "C:\\Users\\txlbot_server\\Desktop\\22222.png"
 }
 ```
-4. 运行`main_ucloud.exe`听课酱开始帮您听课啦~
+4. 运行`main_ucloud.exe`
+5. 听课酱开始帮您听课啦~
 ### 本地部署
 >在`txlbot_server`文件夹下终端执行`pip install -r requirement.txt`即可
 ### 已知Bug
