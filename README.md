@@ -15,12 +15,13 @@
     <img alt="stars" src="https://img.shields.io/github/stars/pk5ls20/txlbot_server?style=social">
 </div>
 <br>
-一个适合部署在Windows的腾讯会议全自动挂机软件！
+一个适合部署在Windows的腾讯会议全自动挂机软件！  
+
+基于项目[Yewandou7/WemeetSignIn](https://github.com/Yewandou7/WemeetSignIn)构建并加强其功能
 <br>
 </div>
 
 ### 功能介绍
-- 基于项目[Yewandou7/WemeetSignIn](https://github.com/Yewandou7/WemeetSignIn)构建并加强其功能
 - 全自动挂机
 - 运行日志输出
 - 挂机失败重试：大幅提高挂机成功概率
@@ -72,4 +73,4 @@ json文件示例：
 使用两台云主机（A/B)，A运行txlbot，B用于远程桌面连接A，主机连接B的远程桌面
 ```
 ### 下回更新预告
-- 重写登陆方式
+- 使用VoovMeeting入会
