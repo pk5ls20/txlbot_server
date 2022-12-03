@@ -22,6 +22,7 @@
 ### 功能介绍
 - 基于项目[Yewandou7/WemeetSignIn](https://github.com/Yewandou7/WemeetSignIn)构建并加强其功能
 - 全自动挂机
+- 运行日志输出
 - 挂机失败重试：大幅提高挂机成功概率
 - 进入会议时间宽限：实现更有弹性的挂机
 - 状态实时推送（基于[Server酱](https://sct.ftqq.com/sendkey)）
