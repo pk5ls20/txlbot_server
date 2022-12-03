@@ -4,7 +4,7 @@
 # txlbot_server
 <hr>
 <div>
-    <img alt="Python" src="https://img.shields.io/badge/python-3.9 Pass-%2300599C?logo=python">
+    <img alt="Python" src="https://img.shields.io/badge/python-3.9.11 Pass-%2300599C?logo=python">
 </div>
 <div>
     <img alt="platform" src="https://img.shields.io/badge/platform-Windows-blueviolet">
