@@ -1,10 +1,10 @@
-<div style="text-align: center;">
-<img height="256" src=https://raw.githubusercontent.com/pk5ls20/txlbot_server/master/txmbotlogo.png 
-width="256" title="txlbot_server_logo" alt="为什么你看不到我啊qwq"/>
-<br></br>
-<div style="font-size: 36px"><b>txlbot_server</b></div><hr>
+<div align="center">
+<img alt="LOGO" src="https://raw.githubusercontent.com/pk5ls20/txlbot_server/master/txmbotlogo.png" width="256" height="256" />
+
+# txlbot_server
+<hr>
 <div>
-    <img alt="C++" src="https://img.shields.io/badge/python-3.9 Pass-%2300599C?logo=python">
+    <img alt="Python" src="https://img.shields.io/badge/python-3.9 Pass-%2300599C?logo=python">
 </div>
 <div>
     <img alt="platform" src="https://img.shields.io/badge/platform-Windows-blueviolet">
@@ -14,8 +14,9 @@ width="256" title="txlbot_server_logo" alt="为什么你看不到我啊qwq"/>
     <img alt="commit" src="https://img.shields.io/github/commit-activity/m/pk5ls20/txlbot_server?color=%23ff69b4">
     <img alt="stars" src="https://img.shields.io/github/stars/pk5ls20/txlbot_server?style=social">
 </div>
-一个适合部署在Windows服务器的腾讯会议全自动挂机软件！
-<br></br>
+<br>
+一个适合部署在Windows的腾讯会议全自动挂机软件！
+<br>
 </div>
 
 ### 功能介绍
