@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-<img height="256" src="https://raw.githubusercontent.com/pk5ls20/txlbot_server/b6c1a6342f35ca05eadea204cb06f072f84be925/logo.png" 
+<img height="256" src=https://raw.githubusercontent.com/pk5ls20/txlbot_server/master/txmbotlogo.png 
 width="256" title="txlbot_server_logo" alt="为什么你看不到我啊qwq"/>
 <br></br>
 <div style="font-size: 36px"><b>txlbot_server</b></div><hr>
