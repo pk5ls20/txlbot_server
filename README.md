@@ -1,5 +1,5 @@
 <div align="center">
-<img alt="LOGO" src="https://jsd.cdn.zzko.cn/gh/pk5ls20/txlbot_server@master/txmbotlogo.png" width="256" height="256" />
+<img alt="LOGO" src="https://fastly.jsdelivr.net/gh/pk5ls20/txlbot_server@master/txmbotlogo.png" width="256" height="256" />
 
 # txlbot_server
 <hr>
