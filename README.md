@@ -40,6 +40,7 @@
 | meeting_id | xxx xxx xxxx</br>或 xxx xxx xxx | 114 514 1919 </br> 或 810 114 514 |
 | password   | 有密码的会议输入密码，无密码的会议输入`xxxxxx`    | /                                |
 | day        | 以**阿拉伯数字**的形式输入课在周几上（1-7）      | 6                                |
+  
 3.配置`dconfig.json`
 > `dconfig.json`存储软件参数
 
