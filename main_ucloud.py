@@ -292,16 +292,22 @@ if __name__ == "__main__":
                 continue
             now = datetime.now()
             for i in range(1, 100):
-                if picfind.isexist() == -1:  # 会议并没有登陆
-                    print("少女祈祷第" + str(i) + "次中...")
-                    logging.info("少女祈祷第" + str(i) + "次中...")
+                if dconfig['check'] == 'True':
+                    if picfind.isexist() == -1:  # 会议并没有登陆
+                        print("少女祈祷第" + str(i) + "次中...")
+                        logging.info("少女祈祷第" + str(i) + "次中...")
+                        SignIn(meet_id, str(password))
+                        time.sleep(10)
+                    else:
+                        print("会议" + class_name + "经过" + str(i) + "次祈祷后已成功登陆！")
+                        push("✔" + class_name + "登陆成功！", "✔会议" + class_name +
+                             "经过" + str(i) + "次祈祷后已成功登陆！")
+                        break
+                else:
                     SignIn(meet_id, str(password))
                     time.sleep(10)
-                else:
-                    print("会议" + class_name + "经过" + str(i) + "次祈祷后已成功登陆！")
-                    push("✔" + class_name + "登陆成功！", "✔会议" + class_name +
-                         "经过" + str(i) + "次祈祷后已成功登陆！")
-                    break
+                    print("嗯...应该是登陆上了吧~")
+                    logging.info("会议已登录#非强制")
             time.sleep(200)
     except(FileNotFoundError):
         print("听课酱未找到参数文件，请检查文件是否存在")
