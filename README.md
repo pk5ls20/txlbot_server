@@ -22,6 +22,7 @@
 </div>
 
 > ⚠ 注意<br>**由于cv2的识别问题，使用模拟点击版的同学，请将电脑的分辨率至少调整为`1920*1080`**
+
 ### 功能介绍
 - 全自动挂机
 - 运行日志输出
@@ -49,10 +50,12 @@
 
 | 键名      | 值                                                                                           |
 |---------|---------------------------------------------------------------------------------------------|
-| xmlpath | 填写[config.xlsx](https://github.com/pk5ls20/txlbot_server/blob/master/config.xlsx)文件所在路径                                                                     |
+| xmlpath | 填写[config.xlsx](https://github.com/pk5ls20/txlbot_server/blob/master/config.xlsx)文件所在路径     |
 | pushapi | 填写你的Server酱的[api](https://sct.ftqq.com/sendkey)                                             |
 | tmpath  | 填写腾讯会议软件所在路径                                                                                |
 | moepath | 填写[listenbot.png](https://github.com/pk5ls20/txlbot_server/blob/master/listenbot.png)文件所在路径 |
+ | check   | 填写是否启用`检查成功登陆`功能                                                                            |
+> ⚠ 注意<br>不建议启用`检查成功登陆`功能。<br>请仅在屏幕分辨率低于`1920*1080`时启用`检查成功登陆`。
 
 json文件示例：
 ```angular2html
@@ -60,7 +63,8 @@ json文件示例：
   "xmlpath" : "C:\\Users\\txlbot_server\\Desktop\\config.xlsx",
   "pushapi" : "https://sctapi.ftqq.com/NSYGYGTKJAAAAA.send",
   "tmpath" : "C:\\Program Files (x86)\\Tencent\\WeMeet\\wemeetapp.exe",
-  "moepath" : "C:\\Users\\txlbot_server\\Desktop\\22222.png"
+  "moepath" : "C:\\Users\\txlbot_server\\Desktop\\22222.png",
+  "check" : "True"
 }
 ```
 4. 运行`main_ucloud.exe`
@@ -68,11 +72,10 @@ json文件示例：
 ### 本地部署
 >在`txlbot_server`文件夹下终端执行`pip install -r requirement.txt`即可
 ### 已知Bug
-1. [**CRITICAL**]运行于云主机时关闭远程桌面连接导致截屏失效从而导致txlbot无法使用（参见[这个issue](https://github.com/python-pillow/Pillow/issues/2631)）</br>
+1. 运行于云主机时关闭远程桌面连接导致截屏失效从而导致txlbot无法使用（参见[这个issue](https://github.com/python-pillow/Pillow/issues/2631)）</br>
 ```angular2html
 不完美解决方案:
 使用两台云主机（A/B)，A运行txlbot，B用于远程桌面连接A，主机连接B的远程桌面
 ```
-2. [**CRITICAL**]由于桌面分辨率被更改会导致cv2识别失败进而无法入会
 ### 下回更新预告
 - 使用VoovMeeting入会
