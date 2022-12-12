@@ -21,7 +21,7 @@
 <br>
 </div>
 
-> ⚠ 注意<br>**由于cv2的识别问题，使用模拟点击版的同学，请将电脑的分辨率至少调整为`1920*1080`**
+> ⚠ 注意<br>由于cv2的识别问题，请**仅在屏幕分辨率高于`1920*1080`时启用`检查成功登陆`**。
 
 ### 功能介绍
 - 全自动挂机
@@ -54,8 +54,7 @@
 | pushapi | 填写你的Server酱的[api](https://sct.ftqq.com/sendkey)                                             |
 | tmpath  | 填写腾讯会议软件所在路径                                                                                |
 | moepath | 填写[listenbot.png](https://github.com/pk5ls20/txlbot_server/blob/master/listenbot.png)文件所在路径 |
- | check   | 填写是否启用`检查成功登陆`功能                                                                            |
-> ⚠ 注意<br>不建议启用`检查成功登陆`功能。<br>请仅在屏幕分辨率低于`1920*1080`时启用`检查成功登陆`。
+ | check   | 填写是否启用`检查成功登陆`功能（True/False）                                                                            |
 
 json文件示例：
 ```angular2html
